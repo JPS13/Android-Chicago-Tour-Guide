@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="udacity.android.tourguide.activities.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/category_margin"
+        android:orientation="vertical">
+
+        <!-- Skyline image on main page -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/skyline" />
+
+        <!-- Layout for Hotels category -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/hotels_text_view"
+                style="@style/CategoryStyle"
+                android:layout_alignParentLeft="true"
+                android:background="@color/category_color"
+                android:text="@string/activity_hotels_label" />
+
+            <ImageView
+                style="@style/CategoryNavArrow"
+                android:src="@drawable/ic_navigate_next_white_24dp" />
+
+        </RelativeLayout>
+
+        <!-- Layout for Restaurants category -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/restaurants_text_view"
+                style="@style/CategoryStyle"
+                android:layout_alignParentLeft="true"
+                android:background="@color/category_color"
+                android:text="@string/activity_restaurants_label" />
+
+            <ImageView
+                style="@style/CategoryNavArrow"
+                android:src="@drawable/ic_navigate_next_white_24dp" />
+
+        </RelativeLayout>
+
+        <!-- Layout for Museums category -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/museums_text_view"
+                style="@style/CategoryStyle"
+                android:layout_alignParentLeft="true"
+                android:background="@color/category_color"
+                android:text="@string/activity_museums_label" />
+
+            <ImageView
+                style="@style/CategoryNavArrow"
+                android:src="@drawable/ic_navigate_next_white_24dp" />
+
+        </RelativeLayout>
+
+        <!-- Layout for Theaters category -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/theaters_text_view"
+                style="@style/CategoryStyle"
+                android:layout_alignParentLeft="true"
+                android:background="@color/category_color"
+                android:text="@string/activity_theaters_label" />
+
+            <ImageView
+                style="@style/CategoryNavArrow"
+                android:src="@drawable/ic_navigate_next_white_24dp" />
+
+        </RelativeLayout>
+
+        <!-- Layout for Attractions category -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/attractions_text_view"
+                style="@style/CategoryStyle"
+                android:layout_alignParentLeft="true"
+                android:background="@color/category_color"
+                android:text="@string/activity_attractions_label" />
+
+            <ImageView
+                style="@style/CategoryNavArrow"
+                android:src="@drawable/ic_navigate_next_white_24dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

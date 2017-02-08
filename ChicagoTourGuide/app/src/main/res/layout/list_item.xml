@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:layout_margin="@dimen/category_margin"
+    android:background="@color/category_color"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal">
+
+    <!-- Layout for the image -->
+    <ImageView
+        android:id="@+id/item_image"
+        style="@style/IconImageViewStyle" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/list_item_height">
+
+        <!-- Layout for the text -->
+        <LinearLayout
+            android:id="@+id/text_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:id="@+id/title_text_view"
+                style="@style/title_text_view_style" />
+
+            <TextView
+                android:id="@+id/address_text_view"
+                style="@style/text_view_style" />
+
+        </LinearLayout>
+
+        <!-- Icon to indicate user can navigate to the item's website -->
+        <ImageView
+            android:id="@+id/internet_icon"
+            style="@style/internet_icon_style"
+            android:src="@drawable/ic_open_in_new_white_24dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

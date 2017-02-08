@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">Chicago Tour Guide</string>
+
+    <!-- Activity Labels -->
+    <string name="activity_hotels_label">Hotels</string>
+    <string name="activity_restaurants_label">Restaurants</string>
+    <string name="activity_museums_label">Museums</string>
+    <string name="activity_theaters_label">Theaters</string>
+    <string name="activity_attractions_label">Attractions</string>
+
+    <!-- Strings for data -->
+
+    <!-- Hotels strings -->
+    <!-- JW Marriott -->
+    <string name="hotels_jw_name">JW Marriott</string>
+    <string name="hotels_jw_address">151 W. Adams St.</string>
+    <string name="hotels_jw_web">marriott.com/hotels/travel/chijw-jw-marriott-chicago/</string>
+
+    <!-- Renaissance -->
+    <string name="hotels_renaissance_name">Renaissance Chicago Downtown</string>
+    <string name="hotels_renaissance_address">1 W. Upper Wacher Dr.</string>
+    <string name="hotels_renaissance_web">marriott.com/hotels/travel/chisr-renaissance-chicago-downtown-hotel/</string>
+
+    <!-- Courtyard -->
+    <string name="hotels_courtyard_name">Courtyard Chicago River North</string>
+    <string name="hotels_courtyard_address">30 E. Hubbard Ave.</string>
+    <string name="hotels_courtyard_web">marriott.com/hotels/travel/chiwb-courtyard-chicago-downtown-river-north/</string>
+
+    <!-- Hyatt -->
+    <string name="hotels_hyatt_name">Hyatt Regency Chicago</string>
+    <string name="hotels_hyatt_address">151 E. Upper Wacker Dr.</string>
+    <string name="hotels_hyatt_web">chicago.regency.hyatt.com/en/hotel/home.html</string>
+
+    <!-- Congress -->
+    <string name="hotels_congress_name">The Congress Plaza Hotel</string>
+    <string name="hotels_congress_address">520 S. Michigan Ave.</string>
+    <string name="hotels_congress_web">www.congressplazahotel.com/</string>
+
+    <!-- Trump -->
+    <string name="hotels_trump_name">Trump International Hotel and Tower</string>
+    <string name="hotels_trump_address">401 N. Wabash Ave.</string>
+    <string name="hotels_trump_web">www.trumphotels.com/chicago</string>
+
+    <!-- Restaurants strings -->
+    <!-- Purple Pig -->
+    <string name="restaurants_purple_pig_name">The Purple Pig</string>
+    <string name="restaurants_purple_pig_address">500 N. Michigan Ave.</string>
+    <string name="restaurants_purple_pig_web">thepurplepigchicago.com</string>
+
+    <!-- Gibsons -->
+    <string name="restaurants_gibsons_name">Gibson\'s Bar and Steakhouse</string>
+    <string name="restaurants_gibsons_address">1028 N. Rush St.</string>
+    <string name="restaurants_gibsons_web">gibsonssteakhouse.com</string>
+
+    <!-- RPM -->
+    <string name="restaurants_rpm_name">RPM Italian</string>
+    <string name="restaurants_rpm_address">52 W. Illinois St.</string>
+    <string name="restaurants_rpm_web">rpmrestaurants.com/rpmitalian/chicago</string>
+
+    <!-- Shanghai -->
+    <string name="restaurants_shanghai_name">Shanghai Terrace</string>
+    <string name="restaurants_shanghai_address">108 E. Superior St.</string>
+    <string name="restaurants_shanghai_web">chicago.peninsula.com/en/fine-dining/shanghai-terrace-chinese-restaurant</string>
+
+    <!-- Ginos East-->
+    <string name="restaurants_ginos_name">Gino\'s East</string>
+    <string name="restaurants_ginos_address">500 N. LaSalle St.</string>
+    <string name="restaurants_ginos_web">ginoseast.com</string>
+
+    <!-- Girl and Goat-->
+    <string name="restaurants_goat_name">Girl and the Goat</string>
+    <string name="restaurants_goat_address">809 W. Randolph St.</string>
+    <string name="restaurants_goat_web">girlandthegoat.com</string>
+
+    <!-- Museums strings -->
+    <!-- Pritzker -->
+    <string name="museums_pritzker_name">Pritzker Military Museum</string>
+    <string name="museums_pritzker_address">104 S. Michigan Ave.</string>
+    <string name="museums_pritzker_web">pritzkermilitary.org</string>
+
+    <!-- Field Museum -->
+    <string name="museums_field_name">The Field Museum of Natural History</string>
+    <string name="museums_field_address">1400 S. Laske Shore Dr.</string>
+    <string name="museums_field_web">fieldmuseum.org</string>
+
+    <!-- Science and Industry -->
+    <string name="museums_msi_name">Museum of Science and Industry</string>
+    <string name="museums_msi_address">5700 S. Lake Shore Dr.</string>
+    <string name="museums_msi_web">msichicago.org</string>
+
+    <!-- Art Institute -->
+    <string name="museums_art_name">The Art Institute of Chicago</string>
+    <string name="museums_art_address">111 S. Michigan Ave.</string>
+    <string name="museums_art_web">artic.edu</string>
+
+    <!-- Adler -->
+    <string name="museums_adler_name">Adler Planetarium</string>
+    <string name="museums_adler_address">1300 S. Lake Shore Dr.</string>
+    <string name="museums_adler_web">adlerplanetarium.org</string>
+
+    <!-- Contemporary Art -->
+    <string name="museums_contempporary_name">Museum of Contemporary Art</string>
+    <string name="museums_contempporary_address">220 E. Chicago Ave.</string>
+    <string name="museums_contempporary_web">mcachicago.org</string>
+
+    <!-- Dusable -->
+    <string name="museums_dusable_name">DuSable Museum of African-American History</string>
+    <string name="museums_dusable_address">740 E. 56th Pl.</string>
+    <string name="museums_dusable_web">dusablemuseum.org</string>
+
+    <!-- Childrens Museum -->
+    <string name="museums_childrens_name">Chicago Children\'s Museums</string>
+    <string name="museums_childrens_address">700 E. Grand Ave.</string>
+    <string name="museums_childrens_web">chicagochildrensmuseum.org</string>
+
+    <!-- Broadcast Communications -->
+    <string name="museums_broadcast_name">Museum of Broadcast Communications</string>
+    <string name="museums_broadcast_address">360 N. State St.</string>
+    <string name="museums_broadcast_web">museum.tv</string>
+
+    <!-- Polish Museum -->
+    <string name="museums_polish_name">Polish Museum of America</string>
+    <string name="museums_polish_address">984 N. Milwaukee Ave.</string>
+    <string name="museums_polish_web">polishmuseumofamerica.com</string>
+
+    <!-- Theaters strings -->
+    <!-- Chicago Theater -->
+    <string name="theaters_chicago_name">Chicago Theater</string>
+    <string name="theaters_chicago_address">175 N. State St.</string>
+    <string name="theaters_chicago_web">thechicagotheater.com"</string>
+
+    <!-- Cadillac Palace -->
+    <string name="theaters_cadillac_name">Cadillac Palace Theater</string>
+    <string name="theaters_cadillac_address">151 W. Randolph St.</string>
+    <string name="theaters_cadillac_web">cadillacpalacetheatre.com</string>
+
+    <!-- Oriental Theater -->
+    <string name="theaters_oriental_name">Oriental Theater</string>
+    <string name="theaters_oriental_address">24 W. Randolph St.</string>
+    <string name="theaters_oriental_web">broadwayinchicago.com/theatre/chicagos-oriental-theatre</string>
+
+    <!-- Apollo Theater -->
+    <string name="theaters_apollo_name">Apollo Theater Chicago</string>
+    <string name="theaters_apollo_address">2540 N. Lincoln Ave.</string>
+    <string name="theaters_apollo_web">apollochicago.com</string>
+
+    <!-- Arie Crown Theater -->
+    <string name="theaters_arie_name">Arie Crown Theater</string>
+    <string name="theaters_arie_address">2301 S. Lake Shore Dr.</string>
+    <string name="theaters_arie_web">ariecrown.com</string>
+
+    <!-- Shakespeare -->
+    <string name="theaters_shakespeare_name">Chicago Shakespeare Theater</string>
+    <string name="theaters_shakespeare_address">800 E. Grand Ave.</string>
+    <string name="theaters_shakespeare_web">chicagoshakes.com</string>
+
+    <!-- Attractions strings -->
+    <!-- North Ave Beach-->
+    <string name="attractions_north_name">North Avenue Beach</string>
+    <string name="attractions_north_address">1600 N Lake Shore Dr.</string>
+    <string name="attractions_north_web">cpdbeaches.com</string>
+
+    <!-- Navy Pier -->
+    <string name="attractions_navy_name">Navy Pier</string>
+    <string name="attractions_navy_address">600 E. Grand Ave.</string>
+    <string name="attractions_navy_web">navypier.com</string>
+
+    <!-- Grant Park -->
+    <string name="attractions_grant_name">Grant Park</string>
+    <string name="attractions_grant_address">337 E, Randolph St.</string>
+    <string name="attractions_grant_web">chicagoparkdistrict.com</string>
+
+    <!-- Millenium Park-->
+    <string name="attractions_millenium_name">Millenium Park</string>
+    <string name="attractions_millenium_address">201 E. Randolph St.</string>
+    <string name="attractions_millenium_web">cityofchicago.org</string>
+
+    <!-- Wrigley Field-->
+    <string name="attractions_wrigley_name">Wrigley Field</string>
+    <string name="attractions_wrigley_address">1060 W. Addison St.</string>
+    <string name="attractions_wrigley_web">chicago.cubs.mlb.com</string>
+
+    <!-- Hancock -->
+    <string name="attractions_hancock_name">John Hancock Center</string>
+    <string name="attractions_hancock_address">875 N. Michigan Ave.</string>
+    <string name="attractions_hancock_web">johnhancockcenterchicago.com</string>
+
+    <!-- Lincoln Park Zoo -->
+    <string name="attractions_zoo_name">Lincoln Park Zoo</string>
+    <string name="attractions_zoo_address">2001 N. Clark St.</string>
+    <string name="attractions_zoo_web">lpzoo.com</string>
+
+    <!-- Willis Tower -->
+    <string name="attractions_willis_name">Willis Tower</string>
+    <string name="attractions_willis_address">233 S. Wacker Dr.</string>
+    <string name="attractions_willis_web">www.willistower.com</string>
+
+    <!--Mag Mile -->
+    <string name="attractions_mile_name">The Magnificent Mile</string>
+    <string name="attractions_mile_address">Michigan Ave</string>
+    <string name="attractions_mile_web">themagnificentmile.com</string>
+
+</resources>

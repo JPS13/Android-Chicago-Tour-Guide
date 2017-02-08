@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="list_item_height">88dp</dimen>
+
+    <!-- Category dimensions -->
+    <dimen name="category_margin">4dp</dimen>
+    <dimen name="category_padding">16dp</dimen>
+
+    <!-- Size for navigation arrow -->
+    <dimen name="nav_arrow_size">32dp</dimen>
+    <dimen name="nav_arrow_margin">16dp</dimen>
+
+    <!-- Size for internet icon -->
+    <dimen name="internet_icon_size">20dp</dimen>
+</resources>
